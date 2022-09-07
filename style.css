@@ -5,7 +5,7 @@
 
 }
 
-body {
+main {
   display: flex ;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,7 @@ img {
 .card h1 {
   font-family: sans-serif;
   color: #3d455a;
+  font-size: 22px;
   margin: 2;
 }
 
@@ -53,9 +54,7 @@ img {
     width: 80%;
     height: auto;
   }
-  .card h1 {
-    font-size: 20px;
-  }
+ 
   .card p {
     font-size: small;
   }
